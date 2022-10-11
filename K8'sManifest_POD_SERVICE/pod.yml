@@ -7,10 +7,10 @@ metadata:
 spec:
   containers:
   - name: myapp
-    image: 947528/app
+    image: 947528/app:latest
     resources:
       limits:
         memory: "128Mi"
         cpu: "500m"
     ports:
-      - containerPort: 8082
+      - containerPort: 8080
